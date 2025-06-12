@@ -1,41 +1,65 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# Compiled output
-/tmp
+# -------------------------------
+# Build outputs (DO NOT TRACK)
+# -------------------------------
+/dist
 /out-tsc
-/bazel-out
+/tmp
+/.angular/cache
+/coverage
 
-# Node
+# -------------------------------
+# Node.js dependencies
+# -------------------------------
 /node_modules
-npm-debug.log
-yarn-error.log
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# -------------------------------
+# Logs and debug files
+# -------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Visual Studio Code
+# -------------------------------
+# Editor & IDE configs
+# -------------------------------
+# VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
 
-# Miscellaneous
-/.angular/cache
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------------
+# Temporary / misc
+# -------------------------------
+.history/
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
+connect.lock
+libpeerconnection.log
 testem.log
-/typings
 
-# System files
+# -------------------------------
+# Types and typings
+# -------------------------------
+/typings/
+
+# -------------------------------
+# OS-specific files
+# -------------------------------
 .DS_Store
 Thumbs.db
