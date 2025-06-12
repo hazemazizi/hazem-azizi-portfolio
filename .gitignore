@@ -1,7 +1,10 @@
 # -------------------------------
-# Build outputs (DO NOT TRACK)
+# Build outputs (DO NOT TRACK UNLESS DEPLOYING)
 # -------------------------------
-/dist
+# /dist is intentionally tracked for deployment purposes
+# Remove the comment below to ignore it again if needed
+# /dist
+
 /out-tsc
 /tmp
 /.angular/cache
